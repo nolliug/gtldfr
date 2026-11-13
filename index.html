@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <title>Jean Guillon — Consultant en nouvelles extensions Internet | gtld.fr</title>
+  <meta name="description" content="Jean Guillon accompagne les marques, entreprises, collectivités et communautés dans leurs projets de nouvelles extensions Internet (nouveaux gTLDs) et .MARQUE auprès de l'écosystème ICANN.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://gtld.fr/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="gtld.fr">
+  <meta property="og:title" content="Jean Guillon — Spécialiste des nouvelles extensions Internet">
+  <meta property="og:description" content="Conseil stratégique, expertise ICANN et accompagnement de projets de nouvelles extensions Internet et .MARQUE.">
+  <meta property="og:url" content="https://gtld.fr/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jean Guillon — Spécialiste des nouvelles extensions Internet">
+  <meta name="twitter:description" content="Conseil stratégique et accompagnement de projets de nouveaux gTLDs et .MARQUE.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#10243a;--muted:#607184;--blue:#1769aa;--blue2:#2d8bd0;--pale:#eef5fa;--line:#dce6ee;--white:#fff;--green:#2a927b}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:inherit}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
+    .topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{font-family:Manrope,sans-serif;font-weight:800;font-size:25px;letter-spacing:-1.4px;text-decoration:none}.brand span{color:var(--blue)}
+    .nav{display:flex;gap:28px;align-items:center}.nav a{text-decoration:none;color:#506174;font-size:14px;font-weight:600}.nav a:hover{color:var(--blue)}
+    .nav .contact{background:var(--ink);color:white;padding:10px 17px;border-radius:7px}.nav .contact:hover{background:var(--blue);color:white}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#f4f8fb 0%,#fff 62%);padding:104px 0 92px}
+    .hero:after{content:"";position:absolute;width:540px;height:540px;border:1px solid #dce9f2;border-radius:50%;right:-100px;top:-180px;box-shadow:0 0 0 42px rgba(220,233,242,.28),0 0 0 90px rgba(220,233,242,.18);pointer-events:none}
+    .hero-inner{position:relative;z-index:1;max-width:790px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}.eyebrow:before{content:"";width:25px;height:2px;background:var(--blue)}
+    h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.18;letter-spacing:-.7px}h1{font-size:clamp(42px,6vw,68px);margin:22px 0 20px;font-weight:800;max-width:800px}h1 span{color:var(--blue)}
+    .lead{font-size:19px;line-height:1.75;color:#526477;max-width:720px;margin:0 0 30px}
+    .actions{display:flex;gap:13px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:7px;padding:13px 20px;font-weight:700;font-size:14px;transition:.2s}.primary{background:var(--blue);color:#fff}.primary:hover{background:#10558e;transform:translateY(-1px)}.secondary{border:1px solid #cbd9e4;color:var(--ink);background:#fff}.secondary:hover{border-color:var(--blue);color:var(--blue)}
+    .intro{padding:86px 0 80px}.intro-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:70px;align-items:start}.section-label{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--blue);font-weight:700;margin:7px 0 15px}.intro h2,.section-head h2{font-size:clamp(30px,4vw,42px);margin:0 0 18px}.intro p{color:var(--muted);margin:0 0 16px}.intro strong{color:var(--ink)}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:34px}.stat{background:#fff;padding:20px}.stat b{display:block;font:800 25px Manrope,sans-serif;color:var(--blue);letter-spacing:-1px}.stat span{font-size:12px;color:var(--muted)}
+    .expertise{background:var(--pale);padding:82px 0}.section-head{max-width:690px;margin-bottom:38px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #e0e9f0;border-radius:10px;padding:27px 25px;min-height:220px}.card .num{font:700 12px Manrope,sans-serif;color:var(--blue);letter-spacing:1px}.card h3{font-size:19px;margin:17px 0 10px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .engagement{padding:82px 0}.engagement-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}.engagement h2{font-size:clamp(30px,4vw,42px);margin:0 0 18px}.engagement p{color:var(--muted)}.publications{display:grid;gap:14px}.publication{border:1px solid var(--line);border-radius:9px;padding:19px 21px;text-decoration:none;display:block;transition:.2s}.publication:hover{border-color:#9bbbd2;transform:translateY(-2px)}.publication b{display:block;font:700 17px Manrope,sans-serif;margin-bottom:3px}.publication span{font-size:13px;color:var(--muted)}
+    .contact-section{background:var(--ink);color:#fff;padding:76px 0}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:35px}.contact-section h2{font-size:clamp(30px,4vw,42px);margin:0 0 12px}.contact-section p{color:#c1ced9;margin:0;max-width:650px}.contact-section .button{background:#fff;color:var(--ink);white-space:nowrap}.contact-section .button:hover{background:#e8f1f7}
+    footer{padding:27px 0;background:#0b1b2c;color:#a9bac8}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px}.socials{display:flex;gap:18px}.socials a{color:#d9e4ec;text-decoration:none}.socials a:hover{color:#fff}
+    .definition{padding:22px 0 28px;background:#f7f9fb;color:#738293;font-size:12px}.definition p{margin:0}
+    @media(max-width:760px){.wrap{width:min(100% - 36px,600px)}.topbar{height:68px}.nav{gap:13px}.nav a:not(.contact){display:none}.hero{padding:75px 0 72px}.hero:after{right:-350px}.lead{font-size:17px}.intro,.expertise,.engagement{padding:62px 0}.intro-grid,.engagement-grid{grid-template-columns:1fr;gap:25px}.stats{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}.card{min-height:0}.contact-inner{align-items:flex-start;flex-direction:column}.footer-inner{align-items:flex-start;flex-direction:column}.socials{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Jean Guillon",
+    "url":"https://gtld.fr/",
+    "jobTitle":"Consultant en nouvelles extensions Internet",
+    "description":"Spécialiste des nouveaux gTLDs et des extensions .MARQUE, accompagnant les organisations dans leurs projets liés au programme ICANN.",
+    "sameAs":[
+      "https://www.linkedin.com/in/guillon/",
+      "https://x.com/jeanguillon",
+      "https://bsky.app/profile/gtld.club"
+    ],
+    "knowsAbout":["Nouveaux gTLDs","Extensions .MARQUE","ICANN","Noms de domaine","Registres Internet","Bureaux d'enregistrement accrédités"]
+  }
+  </script>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#accueil" aria-label="gtld.fr, accueil">gtld<span>.fr</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#expertise">Expertise</a><a href="#engagement">Publications</a><a class="contact" href="#contact">Me contacter</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="accueil">
+      <div class="wrap hero-inner">
+        <div class="eyebrow">Conseil · Stratégie · Nouveaux gTLDs</div>
+        <h1>Jean Guillon<br><span>Les nouvelles extensions Internet, autrement.</span></h1>
+        <p class="lead">J'accompagne les marques, les entreprises, les collectivités et les communautés dans la réflexion, la préparation et le développement de leurs projets de nouvelles extensions Internet, notamment les extensions .MARQUE.</p>
+        <div class="actions">
+          <a class="button primary" href="#contact">Échanger sur votre projet <span aria-hidden="true">&nbsp;→</span></a>
+          <a class="button secondary" href="https://www.linkedin.com/in/guillon/" target="_blank" rel="noopener noreferrer">Voir mon profil LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="wrap intro-grid">
+        <div>
+          <div class="section-label">Parcours & expérience</div>
+          <h2>Une connaissance approfondie de l'écosystème des noms de domaine.</h2>
+        </div>
+        <div>
+          <p>Spécialiste des nouvelles extensions Internet et consultant indépendant, Jean Guillon met à votre disposition plus de 25 ans d'expérience dans l'univers des noms de domaine. Son parcours l'a conduit à travailler avec de grandes entreprises titulaires de portefeuilles de noms de domaine (<strong>Registrants</strong>), des bureaux d'enregistrement accrédités (<strong>Registrars</strong>) et des opérateurs de registres (<strong>Registries</strong>).</p>
+          <p>Cette expérience, construite avant, pendant et après le premier programme des nouvelles extensions de l'ICANN lancé en 2012, lui donne une vision transversale des enjeux stratégiques, organisationnels et opérationnels d'un projet de registre.</p>
+          <p>Depuis 2012, il conseille et prépare des candidats aux programmes de nouveaux gTLDs. Il contribue à évaluer les projets, à identifier les ressources nécessaires et à mettre en relation les porteurs de projets avec les partenaires spécialisés de l'écosystème.</p>
+          <div class="stats">
+            <div class="stat"><b>25+</b><span>années d'expérience</span></div>
+            <div class="stat"><b>2012</b><span>engagement dans les nouveaux gTLDs</span></div>
+            <div class="stat"><b>3 000+</b><span>membres dans la communauté LinkedIn</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expertise" id="expertise">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-label">Domaines d'intervention</div>
+          <h2>De l'idée à la stratégie de registre.</h2>
+          <p>Chaque projet de nouvelle extension Internet répond à des objectifs et à des contraintes spécifiques. L'accompagnement commence par une compréhension claire de ces enjeux.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="num">01 / STRATÉGIE</div><h3>Extensions .MARQUE</h3><p>Étudier l'intérêt stratégique d'une extension dédiée, préciser ses usages et structurer les premières étapes d'un projet pour une marque ou une organisation.</p></article>
+          <article class="card"><div class="num">02 / PROJETS</div><h3>Extensions génériques, locales et communautaires</h3><p>Analyser les opportunités de création et d'exploitation d'une extension pour un marché, un territoire, une communauté ou un secteur d'activité.</p></article>
+          <article class="card"><div class="num">03 / ÉCOSYSTÈME</div><h3>Réseau et partenaires spécialisés</h3><p>Identifier les compétences et ressources utiles — juridiques, techniques, financières et opérationnelles — et faciliter les échanges avec les acteurs du secteur.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="engagement" id="engagement">
+      <div class="wrap engagement-grid">
+        <div>
+          <div class="section-label">Veille & contribution</div>
+          <h2>Partager l'information. Faire avancer l'industrie.</h2>
+          <p>Jean Guillon participe activement à la vie de la communauté internationale des noms de domaine. Il s'intéresse notamment aux extensions de niche, aux nouveaux modèles d'exploitation des registres, à l'identité numérique et aux usages émergents des noms de domaine.</p>
+          <p>Il anime également des espaces d'échange destinés aux professionnels et contribue à rendre l'actualité des nouveaux gTLDs plus accessible.</p>
+        </div>
+        <div class="publications">
+          <a class="publication" href="https://www.gtld.club/" target="_blank" rel="noopener noreferrer"><b>New gTLDs Only</b><span>Newsletter du gTLD Club consacrée à l'actualité des nouvelles extensions Internet.</span></a>
+          <a class="publication" href="https://www.gtld.report/" target="_blank" rel="noopener noreferrer"><b>The gTLD Report</b><span>Rapport mensuel d'analyse des volumes d'enregistrements par extension, industrie et marché.</span></a>
+          <a class="publication" href="https://www.linkedin.com/groups/1840166/" target="_blank" rel="noopener noreferrer"><b>Communauté LinkedIn New gTLDs</b><span>Un espace d'échange international réunissant plus de 3 000 professionnels du secteur.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-inner">
+        <div><div class="section-label" style="color:#8fc4e8">Votre projet</div><h2>Parlons de votre future extension Internet.</h2><p>Vous envisagez une extension .MARQUE, géographique, communautaire ou générique ? Échangeons sur votre idée, son contexte et les ressources à mobiliser.</p></div>
+        <a class="button" href="https://www.linkedin.com/in/guillon/" target="_blank" rel="noopener noreferrer">Contacter Jean Guillon&nbsp; →</a>
+      </div>
+    </section>
+    <div class="definition"><div class="wrap"><p><strong>Un gTLD</strong> (generic Top-Level Domain), ou domaine générique de premier niveau, désigne l'extension située à droite du dernier point dans un nom de domaine, par exemple .COM, .ORG ou une extension .MARQUE.</p></div></div>
+  </main>
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> Jean Guillon · gtld.fr</span>
+      <div class="socials" aria-label="Réseaux sociaux">
+        <a href="https://www.linkedin.com/in/guillon/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://x.com/jeanguillon" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://bsky.app/profile/gtld.club" target="_blank" rel="noopener noreferrer">Bluesky</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
